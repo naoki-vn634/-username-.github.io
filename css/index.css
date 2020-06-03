@@ -10,7 +10,7 @@
     padding-bottom: 300px;
     margin-left: 30px;
     margin-right: 30px;
-    background-image: url("../../images/profile.png");
+    background-image: url("../images/profile.png");
     background-size: cover;
     color: black;
     text-align: center;
@@ -47,7 +47,7 @@
 
 
 #about-left #profile-image{
-    background-image: url("../../images/profile_2.png");
+    background-image: url("../images/profile_2.png");
     background-size: cover;
     width: 300px;
     height: 300px;
