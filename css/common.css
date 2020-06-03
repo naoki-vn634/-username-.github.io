@@ -1,53 +1,15 @@
 @charset "utf-8";
 
+
 *{
     margin: 0;
     padding: 0;
-    /* background-color: white */
 }
 
 .container{
+    height: 100%;
     max-width: 1200px;
     padding: 0 30px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-}
-
-.content{
-    
-    height: 1000px;
-    text-align: center;
-    position: relative;
-}
-
-.content .about{
-    position: absolute;
-    top: 50%;
-    left: 100px;
-    transform: translateY(-50%);
-}
-
-
-.header-left{
-    margin-top: 10px;
-    margin-left:20px;
-    line-height: 30px;
-    text-align: left;
-}
-.header-right{
-    margin-top: 10px;
-    line-height: 30px;
-    text-align: right;
-}
-.header-right a{
-    font-size: 25px;
-    margin-left:20px;
-    margin-right: 30px;
-    color: black;
-}
-.header-right h1{
-    color:black;
-    font-size: 64px;
-    font-family: serif;
 }
