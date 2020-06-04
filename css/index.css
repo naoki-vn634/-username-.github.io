@@ -78,17 +78,37 @@
     box-sizing: border-box;
 }
 
-
+.About{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 .About img{
     border-radius: 50%;
-    margin-top: 30px;
-    margin-left: 100px;
+    margin-top: 180px;
     float: left;
     border: 9px solid#C0C0C0;
 }
-.About p{
-    margin-top: 30px;
-    margin-right: 100px;
+.About .content{
+    margin-left: 50px;
     float: right;
+    margin-top: 70px;
 }
+
+
+.About p{
+    margin-top: 10px;
+}
+
+.About h2{
+    margin-top: 10px;
+}
+
+.About .Background {
+    margin-top: 20px;
+    text-align: left;
+}
+/* .About .Background h3{
+    font-size: 15px;
+} */
