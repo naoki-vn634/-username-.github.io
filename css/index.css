@@ -24,7 +24,7 @@
     width: 600px;
     /* text-align: center; */
     margin-top: 20px;
-    margin-left: 300px;
+    margin-left: 250px;
     display: flex;
 }
 .link a{
@@ -78,7 +78,17 @@
     box-sizing: border-box;
 }
 
-.theme{
-    text-align: center;
-    font-family: 'Kaushan Script', cursive;
+
+
+.About img{
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 100px;
+    float: left;
+    border: 9px solid#C0C0C0;
+}
+.About p{
+    margin-top: 30px;
+    margin-right: 100px;
+    float: right;
 }

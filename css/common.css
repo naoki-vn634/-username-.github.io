@@ -10,7 +10,13 @@
     /* height: 100vh; */
     max-width: 1200px;
     padding: 0 30px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 70px;
+    margin-right: 70px;
    
+}
+
+.theme{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
 }
