@@ -2,7 +2,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300);
 @import url(https://fonts.googleapis.com/css?family=Caveat);
-
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
 
 
 .main-visual{
@@ -76,4 +76,9 @@
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     box-sizing: border-box;
+}
+
+.theme{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
 }
