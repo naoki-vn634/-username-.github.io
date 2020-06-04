@@ -28,3 +28,8 @@
     margin-left: 30px;
     font-size: 15px;
 }
+
+@keyframes fadeIn {
+    0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+    100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+}
