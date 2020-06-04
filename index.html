@@ -9,50 +9,53 @@
         <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300 rel="stylesheet">
     </head>
     <body>
-        <div class='main-visual'>
+        <div class="main">
+
+            
             <div class='container'>
-            
-            
-                <h1 class='top-name'>Naoki Matsunaga</h1>
-                <p class='semi-introduce'>
-                    graduate student. / AI research enginer intern. 
-                </p>
-                <div class="link">
-                    <a href="https://twitter.com/N57362575" id="link" target="_b">Twitter</a>
-                    <a href="https://github.com/naoki-vn634" id="link_" target="_b">Github</a>
-                    <a href="https://qiita.com/NaokiMatsunaga" id="link_" target="_b">Qiita</a>
-                </div>
-                <div class="scroll">
-                    <a href="#"><span></span>Scroll</a>
-                </div>
+                <div class='main-visual'>
                 
-                </div>
-        </div>
-        <div class='container'>
-            <div class='About'>
-                <img src="image/profile_2.png" alt='Profile_img' width="350px",height="350px">
-                <div class="content">
-                    <h1 class="theme">About</h1>
-                    <p>I'm a first year graduate student, Waseda University<br>
-                        My research interest is Computer vision and Active Learning in ML<br>
-                        Belonging to <a href='http://www.pcl.cs.waseda.ac.jp/'>Kobayashi Ogawa Lab</a><p>
-                    <h1 class='theme'>Background</h1>
-                    <div class="Background">
-                        <div id="year">・2013/4-2016/3</div>
-                        <div id='school'>
-                            <a href='https://www.musashi.ed.jp/'>武蔵高等学校</a>
+                    <h1 class='top-name'>Naoki Matsunaga</h1>
+                    <p class='semi-introduce'>
+                        graduate student. / AI research enginer intern. 
+                    </p>
+                    <div class="link">
+                        <a href="https://twitter.com/N57362575" id="link" target="_b">Twitter</a>
+                        <a href="https://github.com/naoki-vn634" id="link_" target="_b">Github</a>
+                        <a href="https://qiita.com/NaokiMatsunaga" id="link_" target="_b">Qiita</a>
+                    </div>
+                    <div class="scroll">
+                        <a href="#"><span></span>Scroll</a>
+                    </div>
+                    
+                    </div>
+            </div>
+            <div class='container'>
+                <div class='About'>
+                    <img src="image/profile_2.png" alt='Profile_img' width="350px",height="350px">
+                    <div class="content">
+                        <h1 class="theme">About</h1>
+                        <p>I'm a first year graduate student, Waseda University<br>
+                            My research interest is Computer vision and Active Learning in ML<br>
+                            Belonging to <a href='http://www.pcl.cs.waseda.ac.jp/'>Kobayashi Ogawa Lab</a><p>
+                        <h1 class='theme'>Background</h1>
+                        <div class="Background">
+                            <div id="year">・2013/4-2016/3</div>
+                            <div id='school'>
+                                <a href='https://www.musashi.ed.jp/'>武蔵高等学校</a>
+                            </div>
+                            <div id="year">・2016/4-2020/3</div>
+                            <div id='school'>
+                                <p>早稲田大学 機械科学・航空学科
+                                <br>Laboratory:<a href='http://www.amano.mech.waseda.ac.jp/hp/'>天野研究室</a></p>
+                            </div>
+                            <div id="year">・2020/4~</div>
+                            <div id="school">
+                                <p>早稲田大学院基幹理工学研究科　情報科学・情報通信専攻
+                                <br>Laboratory:<a href='http://www.pcl.cs.waseda.ac.jp/'>小林・小川研究室</a>
+                            </div>
+                            </p>
                         </div>
-                        <div id="year">・2016/4-2020/3</div>
-                        <div id='school'>
-                            <p>早稲田大学 機械科学・航空学科
-                            <br>Laboratory:<a href='http://www.amano.mech.waseda.ac.jp/hp/'>天野研究室</a></p>
-                        </div>
-                        <div id="year">・2020/4~</div>
-                        <div id="school">
-                            <p>早稲田大学院基幹理工学研究科　情報科学・情報通信専攻
-                            <br>Laboratory:<a href='http://www.pcl.cs.waseda.ac.jp/'>小林・小川研究室</a>
-                        </div>
-                        </p>
                     </div>
                 </div>
             </div>
@@ -63,6 +66,8 @@
 
         $(document).ready(function () {
             var hsize = window.screen.height;
+            var width = window.screen.width;
+            console.log(width)
             $(".container").css("height",hsize + "px");
         });
         $(window).resize(function () {

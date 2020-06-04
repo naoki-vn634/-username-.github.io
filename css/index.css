@@ -36,7 +36,8 @@
     animation-fill-mode: forwards;
     width: 600px;
     margin-top: 20px;
-    margin-left: 250px;
+    margin-left: 280px;
+    
     display: flex;
 }
 .link a{
@@ -62,10 +63,6 @@
     opacity:0.4
 }
 .link a:hover{color:#fff;opacity:1}
-
-
-
-
 
 .scroll a {
     opacity: 0;
