@@ -22,6 +22,7 @@
     font-size: 75px;
     font-family: 'Alegreya Sans SC', sans-serif;
 }
+
 .semi-introduce{
     opacity: 0;
     animation: fadeIn 3s ease 2s 1 normal;
@@ -30,6 +31,7 @@
     font-size: 25px;
     font-family: 'Caveat', cursive;
 }
+
 .link{
     opacity: 0;
     animation: fadeIn 4s ease 3s 1 normal;
@@ -40,6 +42,7 @@
     
     display: flex;
 }
+
 .link a{
     clear:both;
     color:#fff;
