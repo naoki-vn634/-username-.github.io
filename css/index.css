@@ -135,13 +135,14 @@
 
 .research .research-left{
     text-align: center;
-    margin-left: 300px;
+    margin-left: 200px;
     float: left;
 }
 .research .research-right{
     text-align: center;
     float: right;
-    margin-right: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .research h2{

@@ -21,7 +21,7 @@
 }
 
 .theme{
-    margin-top: 30px;
+    margin-top: 50px;
     text-align: center;
     font-family: 'Kaushan Script', cursive;
 }
@@ -47,11 +47,12 @@
 #sub-theme{
     margin-top: 30px;
     font-family: 'Vollkorn', serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .research-left p{
     text-align: left;
+    font-size: 18px;
 }
 
 .research-right{
@@ -63,5 +64,9 @@
 }
 
 #company{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 18px;
+}
+#paper{
     font-family: 'Alegreya Sans SC', sans-serif;
 }
