@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300);
 @import url(https://fonts.googleapis.com/css?family=Caveat);
 @import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
-
+@import url(https://fonts.googleapis.com/css?family=Vollkorn);
 
 .main-visual{
     /* margin-top: 150px; */
@@ -127,3 +127,22 @@
     text-align: left;
 }
 
+.research .research-left{
+    text-align: center;
+    margin-left: 300px;
+    float: left;
+}
+.research .research-right{
+    text-align: center;
+    float: right;
+    margin-right: 300px;
+}
+
+.research h2{
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+
+/* .research p{
+
+} */
