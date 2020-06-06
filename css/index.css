@@ -74,6 +74,7 @@
     /* text-align: center; */
     padding-top: 60px;
 }
+
 .scroll a {
     position: absolute;
     bottom: 20px;
@@ -84,6 +85,7 @@
     transform: translate(0, -50%);
     text-decoration: none;
 }
+
 .scroll a span {
     position: absolute;
     top: 0;
@@ -110,6 +112,7 @@
     float: left;
     border: 9px solid#C0C0C0;
 }
+
 .About .content{
     margin-left: 50px;
     float: right;
@@ -145,7 +148,9 @@
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-
+.research-right .theme{
+    margin-bottom: 20px;
+}
 /* .research p{
 
 } */
